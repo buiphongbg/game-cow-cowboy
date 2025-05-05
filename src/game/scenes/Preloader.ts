@@ -34,6 +34,10 @@ export class Preloader extends Scene
 
         this.load.image('logo', 'logo.png');
         this.load.image('star', 'star.png');
+        this.load.spritesheet('cowboy', 'dude.png', { frameWidth: 32, frameHeight: 48 });
+        this.load.spritesheet('cow', 'cow_walk.png', { frameWidth: 128, frameHeight: 128, endFrame: 16 });
+        this.load.spritesheet('rope', 'rope.png', { frameWidth: 16, frameHeight: 256, endFrame: 16 });
+        this.load.image('rope-img', 'rope-2.png');
     }
 
     create ()
